@@ -1,0 +1,17 @@
+# env
+.env
+*.db
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# misc
+.DS_Store
