@@ -1,6 +1,6 @@
-## 🎮 The LIFE_CORE
+## 🎮 The NEXORA
 
-One of LIFE_CORE's main concepts is the **Skill Tree**.
+One of NEXORA's main concepts is the **Skill Tree**.
 
 Instead of simply listing skills, the system represents development as a progression.
 
@@ -36,7 +36,7 @@ Skills can represent anything from:
 
 ## 🔐 Privacy First
 
-LIFE_CORE is designed around the idea that personal life data should remain under the user's control.
+NEXORA is designed around the idea that personal life data should remain under the user's control.
 
 Future versions can include:
 
@@ -52,7 +52,7 @@ Future versions can include:
 
 Most productivity applications focus on **tasks**.
 
-LIFE_CORE focuses on the **person behind the tasks**.
+NEXORA focuses on the **person behind the tasks**.
 
 The long-term vision is to create a system where your:
 
@@ -66,7 +66,7 @@ all connect together.
 
 ## 🌌 Philosophy
 
-LIFE_CORE is built around one simple idea:
+NEXORA is built around one simple idea:
 
 > **Your life is the biggest project you'll ever work on.**
 
@@ -93,7 +93,7 @@ Developer • Designer • Builder
 
 ## ⭐ Support
 
-If you like the concept behind **LIFE_CORE**, consider giving the repository a ⭐.
+If you like the concept behind **NEXORA**, consider giving the repository a ⭐.
 
 It helps support the project and its future development.
 
