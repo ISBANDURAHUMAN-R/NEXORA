@@ -43,7 +43,7 @@ export default function Sidebar({
           <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-accent to-accent-teal flex items-center justify-center shadow-glow">
             <Sparkles size={16} className="text-base" strokeWidth={2.5} />
           </div>
-          <span className="font-semibold tracking-tight text-[15px]">SkillTree</span>
+          <span className="font-semibold tracking-tight text-[15px]">NEXORA</span>
         </div>
         <button
           onClick={onClose}

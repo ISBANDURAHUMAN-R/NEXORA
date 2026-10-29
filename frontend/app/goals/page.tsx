@@ -85,11 +85,6 @@ function CreateGoalModal({
           </div>
         </div>
       </div>
-      <style jsx global>{`
-        .input { width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
-          border-radius: 0.5rem; padding: 0.55rem 0.75rem; font-size: 0.875rem; color: #E9EAEE; outline: none; }
-        .input:focus { border-color: #7C9CFF; }
-      `}</style>
     </div>
   );
 }

@@ -8,7 +8,7 @@ import { Skill, TreeEdge } from "@/lib/types";
 const NODE_W = 168;
 const NODE_H = 64;
 
-const STATUS_STYLE: Record<string, { border: string; glow: string; text: string; icon: JSX.Element }> = {
+const STATUS_STYLE: Record<string, { border: string; glow: string; text: string; icon: React.ReactNode }> = {
   locked: {
     border: "stroke-white/10",
     glow: "",

@@ -41,6 +41,28 @@ body {
   outline-offset: 2px;
 }
 
+.input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  color: #E9EAEE;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input:focus {
+  border-color: #7C9CFF;
+  box-shadow: 0 0 0 1px rgba(124, 156, 255, 0.25);
+}
+
+.input option {
+  background-color: #15181F;
+  color: #E9EAEE;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

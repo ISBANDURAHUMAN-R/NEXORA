@@ -1,6 +1,7 @@
+import json
 import datetime as dt
 from sqlalchemy.orm import Session
-from models import User, Skill, SkillPrerequisite, LearningSession, Goal, DailyStats
+from models import User, Skill, SkillPrerequisite, LearningSession, Goal, DailyStats, UserAchievement
 from services.xp_engine import xp_required_cumulative
 from services.achievement_engine import ensure_achievement_rows, check_achievements
 
@@ -45,6 +46,7 @@ def seed_demo_data(db: Session):
     db.query(DailyStats).delete()
     db.query(Goal).delete()
     db.query(LearningSession).delete()
+    db.query(UserAchievement).delete()
     db.query(SkillPrerequisite).delete()
     db.query(Skill).delete()
     db.query(User).delete()
@@ -104,7 +106,7 @@ def seed_demo_data(db: Session):
         sess = LearningSession(
             user_id=user.id, skill_id=skill.id, duration_minutes=duration,
             activity=activities[i % len(activities)], difficulty=difficulty,
-            notes="", xp_awarded=xp, xp_breakdown=str(breakdown).replace("'", '"'),
+            notes="", xp_awarded=xp, xp_breakdown=json.dumps(breakdown),
             deep_work=deep_work, session_date=day.isoformat(),
         )
         db.add(sess)

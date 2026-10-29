@@ -16,8 +16,11 @@ export default function SkillTreePage() {
   const [recommended, setRecommended] = useState<RecommendedSkill[]>([]);
 
   useEffect(() => {
-    api.get<SkillTree>("/api/skill-tree").then(setTree);
-    api.get<{ recommended: RecommendedSkill[] }>("/api/dashboard").then((d: any) => setRecommended(d.recommended));
+    api.get<SkillTree>("/api/skill-tree").then(setTree).catch(() => {});
+    api
+      .get<{ recommended: RecommendedSkill[] }>("/api/dashboard")
+      .then((d) => setRecommended(d?.recommended || []))
+      .catch(() => {});
   }, []);
 
   const selected = tree?.nodes.find((n) => n.id === selectedId) ?? null;

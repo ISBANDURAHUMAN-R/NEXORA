@@ -22,9 +22,10 @@ load_dotenv()
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="SkillTree API", version="1.0.0")
+app = FastAPI(title="NEXORA API", version="1.0.0")
 
-origins = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+cors_env = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,http://localhost:5173")
+origins = [o.strip() for o in cors_env.split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -192,6 +193,8 @@ def delete_skill(skill_id: int, db: Session = Depends(get_db)):
     db.query(models.SkillPrerequisite).filter(
         (models.SkillPrerequisite.skill_id == skill_id) | (models.SkillPrerequisite.prerequisite_id == skill_id)
     ).delete()
+    db.query(models.Goal).filter(models.Goal.skill_id == skill_id).delete()
+    db.query(models.LearningSession).filter(models.LearningSession.skill_id == skill_id).delete()
     db.delete(skill)
     db.commit()
     return {"success": True}

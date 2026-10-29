@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swa
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "SkillTree — Skill Progression System",
-  description: "Turn learning and development into a visual skill tree.",
+  title: "NEXORA — Skill Progression & Visual Learning Tree",
+  description: "Gamify learning and personal development into a visual skill tree with NEXORA.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -7,7 +7,7 @@ from database import Base
 
 
 def now():
-    return dt.datetime.utcnow()
+    return dt.datetime.now(dt.timezone.utc)
 
 
 class User(Base):
