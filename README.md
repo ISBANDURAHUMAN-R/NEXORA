@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="NEXORA Banner" width="100%">
+</p>
+
 # 🌌 NEXORA
 
 > **Your life is the biggest project you'll ever work on.**  
