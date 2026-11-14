@@ -2,14 +2,14 @@
   <img src="assets/banner.png" alt="NEXORA Banner" width="100%">
 </p>
 
-# 🌌 NEXORA
+# ◈ NEXORA
 
 > **Your life is the biggest project you'll ever work on.**  
 > Turn learning, habits, and self-development into a visual, RPG-style **Skill Tree**.
 
 ---
 
-## 🎮 The NEXORA Concept
+## ✦ The NEXORA Concept
 
 Most productivity applications focus on simple **task lists**. **NEXORA** focuses on the **person behind the tasks**.
 
@@ -32,16 +32,16 @@ Instead of isolated to-do items, NEXORA organizes development into an interactiv
 ```
 
 Skills can represent anything in your growth journey:
-* 💻 **Programming & Tech** (Python, FastAPI, Docker, Git)
-* 🧠 **AI & Machine Learning** (Deep Learning, Computer Vision, NLP)
-* 📊 **Data Science & Math** (SQL, Linear Algebra, Statistics)
-* 🎨 **Design & Creativity** (UI Design, UX Research)
-* 🗣️ **Communication & Business** (Public Speaking, Product Strategy)
-* 🏃 **Fitness, Habits & Personal Growth**
+* ▪ **Programming & Tech** (Python, FastAPI, Docker, Git)
+* ▫ **AI & Machine Learning** (Deep Learning, Computer Vision, NLP)
+* ▴ **Data Science & Math** (SQL, Linear Algebra, Statistics)
+* ▿ **Design & Creativity** (UI Design, UX Research)
+* ⬡ **Communication & Business** (Public Speaking, Product Strategy)
+* · **Fitness, Habits & Personal Growth**
 
 ---
 
-## ✨ Features
+## ❖ Features
 
 - **Interactive Skill Tree Canvas**: Interactive pan/zoom canvas rendering skills, prerequisite dependencies, and dynamic status glows (`locked`, `available`, `in_progress`, `mastered`).
 - **Deterministic XP & Leveling Engine**:
@@ -56,14 +56,14 @@ Skills can represent anything in your growth journey:
 
 ---
 
-## 🛠️ Tech Stack
+## ⬢ Tech Stack
 
 - **Backend**: Python 3.10+, [FastAPI](https://fastapi.tiangolo.com/), [SQLAlchemy 2.0](https://www.sqlalchemy.org/), [Pydantic v2](https://docs.pydantic.dev/), SQLite / PostgreSQL.
 - **Frontend**: [Next.js 14 (App Router)](https://nextjs.org/), React 18, TypeScript, [Tailwind CSS](https://tailwindcss.com/), [Recharts](https://recharts.org/), Lucide Icons.
 
 ---
 
-## 🚀 Quickstart Guide
+## ▲ Quickstart Guide
 
 ### 1. Prerequisites
 - Python 3.10 or higher
@@ -111,7 +111,7 @@ The frontend dashboard will be available at: `http://localhost:3000`
 
 ---
 
-## ⚙️ Environment Variables
+## ◎ Environment Variables
 
 Create a `.env` file in the root directory or configure environment variables directly:
 
@@ -128,7 +128,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 📁 Repository Structure
+## □ Repository Structure
 
 ```text
 NEXORA/
@@ -165,7 +165,7 @@ NEXORA/
 
 ---
 
-## 🔐 Privacy First
+## § Privacy First
 
 NEXORA is designed around the idea that personal life data should remain strictly under the user's control.
 
@@ -175,7 +175,7 @@ NEXORA is designed around the idea that personal life data should remain strictl
 
 ---
 
-## 🎯 Vision
+## ▸ Vision
 
 Most productivity tools track items you have to check off. NEXORA tracks who you are becoming.
 
@@ -185,13 +185,13 @@ Most productivity tools track items you have to check off. NEXORA tracks who you
 
 ---
 
-## 👨‍💻 Developer
+## ※ Developer
 
 **Isbandu Rahuman R.**  
 AI & Data Science Student • Developer • Designer • Builder
 
 ---
 
-## ⭐ Support
+## ◇ Support
 
-If you like the concept behind **NEXORA**, consider giving the repository a ⭐!
+If you like the concept behind **NEXORA**, consider giving the repository a star!
