@@ -8,11 +8,11 @@
 NEXORA is a web application that organizes learning activities, habits, and self-development into an interactive RPG-style skill tree. Instead of simple task lists, it structures progression across interconnected competency nodes with prerequisite dependencies and deterministic XP leveling mechanics.
 
 ## ❖ Key Features
-- ▪ Interactive visual skill tree canvas with pan, zoom, and dynamic status indicators.
-- ▫ Deterministic XP and leveling engine with quadratic leveling curves and difficulty multipliers.
-- ▴ Session logging module recording study duration, activity notes, and earned experience.
-- ▿ Rule-based recommendation engine evaluating prerequisite readiness without external AI APIs.
-- ⬡ Analytics dashboard featuring XP growth trajectories and weekly learning distribution charts.
+- Interactive visual skill tree canvas with pan, zoom, and dynamic status indicators.
+- Deterministic XP and leveling engine with quadratic leveling curves and difficulty multipliers.
+- Session logging module recording study duration, activity notes, and earned experience.
+- Rule-based recommendation engine evaluating prerequisite readiness without external AI APIs.
+- Analytics dashboard featuring XP growth trajectories and weekly learning distribution charts.
 
 ## ⬢ Technologies Used
 - Python 3.10+
