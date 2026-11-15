@@ -4,8 +4,22 @@
 
 # ◈ NEXORA — Skill Tree & Personal Growth Engine
 
+[![CI](https://github.com/ISBANDURAHUMAN-R/NEXORA/actions/workflows/ci.yml/badge.svg)](https://github.com/ISBANDURAHUMAN-R/NEXORA/actions)
+
 ## ◆ About the Project
 NEXORA is a web application that organizes learning activities, habits, and self-development into an interactive RPG-style skill tree. Instead of simple task lists, it structures progression across interconnected competency nodes with prerequisite dependencies and deterministic XP leveling mechanics.
+
+```mermaid
+flowchart TD
+    User["User Study Activity / Habit Completion"] --> API["FastAPI Backend (Pydantic v2 + SQLite)"]
+    API --> XP["Deterministic XP Engine (Quadratic Scaling)"]
+    API --> Graph["Competency Graph & Prerequisite Validator"]
+    XP --> Level["Level Progression & Streak Analytics"]
+    Graph --> Unlocks["Node Unlocking & Dependency Propagation"]
+    Level --> DB[(SQLAlchemy 2.0 Persistence)]
+    Unlocks --> DB
+    DB --> UI["Next.js 14 App Router + Tailwind Visual Canvas"]
+```
 
 ## ❖ Key Features
 - Interactive visual skill tree canvas with pan, zoom, and dynamic status indicators.
