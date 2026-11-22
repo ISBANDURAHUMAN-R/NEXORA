@@ -11,14 +11,14 @@ NEXORA is a web application that organizes learning activities, habits, and self
 
 ```mermaid
 flowchart TD
-    User["User Study Activity / Habit Completion"] --> API["FastAPI Backend (Pydantic v2 + SQLite)"]
-    API --> XP["Deterministic XP Engine (Quadratic Scaling)"]
-    API --> Graph["Competency Graph & Prerequisite Validator"]
-    XP --> Level["Level Progression & Streak Analytics"]
-    Graph --> Unlocks["Node Unlocking & Dependency Propagation"]
-    Level --> DB[(SQLAlchemy 2.0 Persistence)]
+    User["User Study Activity /<br/>Habit Completion"] --> API["FastAPI Backend<br/>(Pydantic v2 + SQLite)"]
+    API --> XP["Deterministic XP Engine<br/>(Quadratic Scaling)"]
+    API --> Graph["Competency Graph &amp;<br/>Prerequisite Validator"]
+    XP --> Level["Level Progression &amp;<br/>Streak Analytics"]
+    Graph --> Unlocks["Node Unlocking &amp;<br/>Dependency Propagation"]
+    Level --> DB[("SQLAlchemy 2.0<br/>Persistence")]
     Unlocks --> DB
-    DB --> UI["Next.js 14 App Router + Tailwind Visual Canvas"]
+    DB --> UI["Next.js 14 App Router +<br/>Tailwind Visual Canvas"]
 ```
 
 ## ❖ Key Features
